@@ -1,0 +1,16 @@
+Pesquisa Binária
+
+A pesquisa binária é um algoritmo que precisa de uma entrada ordenada de elementos. Se o elemento buscado está na lista, a pesquisa binária retorna a sua localização. Caso contrário, a pesquisa retorna None.
+Essa forma de busca precisa de log n etapas para retornar um valor, um tempo de execução logarítmico.
+
+Notação Big O
+É uma notação especial que diz o quão rápido é um algoritmo. Essa notação leva em consideração sempre a pior hipótese, então mesmo que num algoritmo O(n) o resultado seja encontrado na primeira tentativa O(1) ainda assim ele será um algoritmo O(n).
+
+Alguns exemplos de tempo de execução Big O
+Do mais rápido para o mais lento temos:
+
+- O(log n), tempo logarítimico;
+- O(n), tempo linear;
+- O(n * log n);
+- O(n^2);
+- O(n!).
