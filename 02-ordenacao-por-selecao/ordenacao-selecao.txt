@@ -1,0 +1,13 @@
+Arrays
+
+Listas encadeadas são ótimas se quiser ler todos os itens, um de cada vez: você pode ler um item, seguir para o endereço do próximo item e fazer isso até o fim da lista. Mas se você quiser pular de um item para o outro, as listas encadeadas não são boas.
+
+
+	   | Arrays | Listas
+Leitura    | O(1)   |  O(n)
+Inserção   | O(n)   |  O(1)
+Eliminação | O(n)   |  O(1)
+
+Listas encadeadas são melhores caso você queira inserir um elemento no meio de uma lista.
+
+O tempo de execução O(n) significa que você precisa passar por todos os elementos de uma lista uma vez.
