@@ -1,0 +1,10 @@
+Recursão
+
+A recursão é usada para tornar a resposta mais clara. Não há nenhum benefício quanto ao desempenho ao utilizar essa técnica.
+
+"Os loops podem melhorar o desempenho do programa. A recursão melhora o desempenho do programador." Leigh Caldwell.
+https://stackoverflow.com/questions/72209/recursion-or-iteration/72694#72694
+
+Devido ao fato de a função recursiva chamar a si mesma, é muito fácil escrevê-la erroneamente e acabar em um lopp infinito. Por isso devemos informar quando a recursão deve parar. É por isso que toda função recursiva tem duas partes: o caso-base e o caso recursivo.
+
+O caso recursivo é quando a função chama a si mesma, ja o caso-base é quando a função não chama a si mesma novamente, de forma que o programa não se torna um loop sem fim.
